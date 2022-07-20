@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "exportcheck",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/yukihiro/projects/amplifyExportCheck/export-check/amplify/backend/api/exportcheck/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authexportchecke1dc1ed9"
+    }
+  }
+}

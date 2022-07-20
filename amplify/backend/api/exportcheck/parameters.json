@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "exportcheck",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authexportchecke1dc1ed9",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
