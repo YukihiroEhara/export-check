@@ -3,8 +3,8 @@ import { Amplify } from "aws-amplify";
 import { Authenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 
-import awsExports from "./aws-exports";
-// import awsExports from "./dummy-exports";
+// import awsExports from "./aws-exports";
+import awsExports from "./dummy-exports";
 Amplify.configure(awsExports);
 
 console.log(process.env.REACT_APP_AWS_USER_POOLS_ID);
