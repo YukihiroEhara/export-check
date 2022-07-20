@@ -14,8 +14,8 @@ module.exports = {
       {
         test: /dummy-exports.js/,
         // exclude: /node_modules/,
-        // loader: "string-replace-loader",
-        use: ["string-replace-loader"],
+        loader: "string-replace-loader",
+        // use: ["string-replace-loader"],
         options: {
           multiple: [
             {
