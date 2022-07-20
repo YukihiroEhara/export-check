@@ -94,11 +94,11 @@ module.exports = {
     extensions: ["*", ".js", "ts", ".tsx"],
   },
 
-  //   plugins: [
-  //     new HtmlWebpackPlugin({
-  //       template: "./src/index.html",
-  //     }),
-  //   ],
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: "./src/index.txs",
+      }),
+    ],
 };
 
 console.log(process.env.REACT_APP_AWS_REGION);
